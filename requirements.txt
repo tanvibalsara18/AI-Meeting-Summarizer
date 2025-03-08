@@ -2,5 +2,5 @@ streamlit==1.43.1
 openai-whisper
 transformers==4.49.0
 spacy==3.8.4
-torch==2.0.0
+torch==2.6.0  # Updated to a compatible version
 python-dotenv
