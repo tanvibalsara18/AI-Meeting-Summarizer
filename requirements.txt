@@ -1,14 +1,17 @@
-# Core NLP and AI Libraries
-spacy
+pip==25.0.1
+streamlit
 transformers
 torch
-numpy
-
-# Additional Dependencies
-pandas
+spacy
+sentencepiece
 scipy
-flask
-gunicorn
-
-# SpaCy Model (Download separately)
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+nltk
+pygments
+markdown-it-py
+rich
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
