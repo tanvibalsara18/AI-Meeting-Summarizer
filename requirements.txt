@@ -1,6 +1,14 @@
-streamlit==1.43.1
-openai-whisper
-transformers==4.49.0
-spacy==3.8.4
-torch==2.6.0  # Updated to a compatible version
-python-dotenv
+# Core NLP and AI Libraries
+spacy
+transformers
+torch
+numpy
+
+# Additional Dependencies
+pandas
+scipy
+flask
+gunicorn
+
+# SpaCy Model (Download separately)
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
