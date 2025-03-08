@@ -1,0 +1,47 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env/
+*.env
+
+# Ignore package manager files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs and temp files
+*.log
+logs/
+temp/
+
+# Ignore model and large data files
+*.pt
+*.onnx
+whisper/
+models/
+data/
+cache/
+
+# Ignore Streamlit and deployment-related files
+.streamlit/
+.streamlit/secrets.toml
+
+# Ignore audio files (if not needed in repo)
+*.mp3
+*.wav
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

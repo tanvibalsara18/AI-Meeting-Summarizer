@@ -1,0 +1,7 @@
+streamlit
+openai-whisper
+transformers
+spacy
+torch
+smtplib
+python-dotenv
