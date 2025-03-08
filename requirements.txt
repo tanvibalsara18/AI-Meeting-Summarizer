@@ -1,7 +1,6 @@
-streamlit
+streamlit==1.43.1
 openai-whisper
-transformers
-spacy
-torch
-smtplib
+transformers==4.49.0
+spacy==3.8.4
+torch==2.0.0
 python-dotenv
